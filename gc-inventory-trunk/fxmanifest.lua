@@ -10,7 +10,7 @@ url 'https://github.com/dutchplayers/ESX-1.2-Inventory-HUD'
 server_scripts {
   "@async/async.lua",
   "@mysql-async/lib/MySQL.lua",
-  "@gc-core/locale.lua",
+  "@es_extended/locale.lua",
   "locales/*.lua",
   "config.lua",
   "server/classes/c_trunk.lua",
@@ -19,7 +19,7 @@ server_scripts {
 }
 
 client_scripts {
-  "@gc-core/locale.lua",
+  "@es_extended/locale.lua",
   "locales/*.lua",
   "config.lua",
   "client/esx_trunk-cl.lua"
