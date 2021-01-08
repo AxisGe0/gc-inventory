@@ -9,7 +9,7 @@ version "1.0"
 ui_page "html/ui.html"
 
 client_scripts {
-  "@gc-core/locale.lua",
+  "@es_extended/locale.lua",
   "client/main.lua",
   "client/shop.lua",
   "client/glovebox.lua",
@@ -28,7 +28,7 @@ client_scripts {
 
 server_scripts {
   '@mysql-async/lib/MySQL.lua',
-  "@gc-core/locale.lua",
+  "@es_extended/locale.lua",
   "server/main.lua",
   "server/steal.lua",
   "common/weapons.lua",
