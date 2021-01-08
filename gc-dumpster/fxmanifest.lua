@@ -8,7 +8,7 @@ version 'v1.0.0'
 url 'https://discord.gg/taeratto'
 
 server_scripts {
-	'@gc-core/locale.lua',
+	'@es_extended/locale.lua',
 	'@mysql-async/lib/MySQL.lua',
 	'locales/en.lua',
 	'config.lua',
@@ -16,7 +16,7 @@ server_scripts {
 }
 
 client_scripts {
-	'@gc-core/locale.lua',
+	'@es_extended/locale.lua',
 	'locales/en.lua',
 	'config.lua',
 	'client/main.lua'
