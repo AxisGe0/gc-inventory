@@ -1,0 +1,186 @@
+Config = {}
+
+Config.CheckOwnership = false -- If true, Only owner of vehicle can store items in glovebox.
+Config.AllowPolice = true -- If true, police will be able to search players' glovebox.
+
+Config.Locale = "en"
+
+Config.OpenKey = 47
+
+-- Limit, unit can be whatever you want. Originally grams (as average people can hold 25kg)
+Config.Weight = 10
+
+-- Default weight for an item:
+-- weight == 0 : The item do not affect character inventory weight
+-- weight > 0 : The item cost place on inventory
+-- weight < 0 : The item add place on inventory. Smart people will love it.
+Config.DefaultWeight = 1
+
+Config.localWeight = {
+	radio = 350,
+	alive_chicken = 200,
+	advancedlockpick = 600,
+	bandage = 100,
+	beer = 140,
+	receipt = 100,
+	repairkit = 700,
+	bread = 125,
+	weed = 100,
+	secure_card = 200,
+	shotburst = 150,
+	soda = 100,
+	cigarette = 100,
+	starburst = 100,
+	stones = 50,
+	cocacola = 100,
+	cocaine = 100,
+	coffee = 100,
+	thermal_charge = 200,
+	
+	binoculars = 350,
+	trailburst = 150,
+	diamond = 100,
+	oxygenmask = 1000,
+	nugget = 100,
+	medikit = 100,
+	lockpick = 300,
+	laptop_h = 400,
+	fixkit = 100,
+	fixtool = 100,
+	jewels = 200,
+	gold = 60,
+	bulletproof = 900,
+	hamburger = 100,
+	icetea = 100,
+	iron = 60,
+	leather = 100,
+	lighter = 100,
+	marijuana = 450,
+	fixtool = 1000,
+	medikit = 100,
+	idcard = 120,
+	id_card_f = 150,
+	id_card = 100,
+	oxygen_mask = 100,
+	packaged_chicken = 100,
+	packaged_plank = 100,
+	petrol = 400,
+	petrol_raffin = 100,
+	hotdog = 130,
+	sandwich = 100,
+	fountain = 160,
+	slaughtered_chicken = 150,
+	squid = 100,
+	squidbait = 100,
+	stone = 1000,
+	copper = 60,
+	diamond = 400,
+	turtlebait = 100,
+	vodka = 200,
+	washed_stone =1000,
+	water = 100,
+	weaponflashlight = 100,
+	donut = 100,
+	weaponskin = 100,
+	weed_pooch = 100,
+	whisky = 100,
+	wine = 100,
+	wood = 100,
+	cokebrick = 1200,
+	worm = 100,
+	nothing = 300,
+	porkpackage = 300,
+	coke = 150,
+	rice_pro = 300,
+	rice = 300,
+	phone = 500,
+	chest_a = 25,
+	chest_a = 25,
+	nurek = 25,
+	honey_b = 25,
+	honey_a = 25,
+	marijuana = 25,
+	cannabis = 125,
+	sickle = 25,
+	pizza = 25,
+	burger = 25,
+	pastacarbonara = 25,
+	macka = 25,
+	cigarett = 25,
+	pro_wood = 25,
+	wood = 25,
+	meth_pooch = 25,
+	meth = 25,
+	marijuana = 25,
+	wool = 25,
+	clothe = 25,
+	glass = 25,
+	sands = 25,
+	bcabbage = 25,
+	acabbage = 25,
+	gold_t = 25,
+	gold_o = 25,
+	mushroom = 25,
+	mushroom_d = 25,
+	mushroom_p = 25,
+	oil_b = 25,
+	oil_a = 25,
+	leather_a = 25,
+	meat_a = 25,
+	meat_w = 25,
+	drill = 25,
+	medikit = 25,
+	medikit = 25,
+	bandage = 125,
+	gps = 25,
+	fishingrod = 25,
+	Cottageleaves_box = 25,
+	marijuana = 25,
+	WEAPON_SMG = 0,
+	WEAPON_CARBINERIFLE = 0,
+	WEAPON_SPECIALCARBINE = 0,
+	WEAPON_ASSAULTRIFLE = 0,
+	WEAPON_PUMPSHOTGUN = 0,
+	WEAPON_PISTOL = 0,
+	WEAPON_APPISTOL = 0,
+	WEAPON_MACHINEPISTOL = 0,
+	WEAPON_COMBATPISTOL = 0
+}
+
+Config.VehicleWeight = {
+    [0] = 300, --Compact
+    [1] = 400, --Sedan
+    [2] = 700, --SUV
+    [3] = 250, --Coupes
+    [4] = 300, --Muscle
+    [5] = 100, --Sports Classics
+    [6] = 50, --Sports
+    [7] = 50, --Super
+    [8] = 50, --Motorcycles
+    [9] = 1800, --Off-road
+    [10] = 3000, --Industrial
+    [11] = 700, --Utility
+    [12] = 1000, --Vans
+    [13] = 0, --Cycles
+    [14] = 50, --Boats
+    [15] = 200, --Helicopters
+    [16] = 0, --Planes
+    [17] = 400, --Service
+    [18] = 400, --Emergency
+    [19] = 0, --Military
+    [20] = 3000, --Commercial
+    [21] = 0 --Trains
+}
+
+Config.VehiclePlate = {
+    taxi = "TAXI",
+    cop = "police",
+    police = "police",
+    ambulance = "ambulance",
+    mecano = "mechano",
+    mechanic = "mechanic",
+    police = "police",
+    nightclub = "club",
+    bahamas = "bahamas",
+    cardealer = "dealer"
+}
