@@ -590,6 +590,7 @@ end
 
 RegisterServerEvent('suku:buyLicense')
 AddEventHandler('suku:buyLicense', function ()
+	local _source = source
 	local xPlayer = ESX.GetPlayerFromId(source)
 	if xPlayer.getAccount('money').money >= Config.LicensePrice then
 		xPlayer.removeMoney(Config.LicensePrice)
