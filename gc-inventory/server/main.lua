@@ -593,11 +593,11 @@ AddEventHandler('suku:buyLicense', function ()
 	local xPlayer = ESX.GetPlayerFromId(source)
 	if xPlayer.getAccount('money').money >= Config.LicensePrice then
 		xPlayer.removeMoney(Config.LicensePrice)
-		TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'success', text = 'You registered a Fire Arms license.' })
+		TriggerClientEvent('mythic_notify:client:SendAlert', _source, { type = 'success', text = 'You registered a Fire Arms license.' })
 		TriggerEvent('esx_license:addLicense', source, 'weapon', function ()
 			GetLicenses(source)
 		end)
 	else
-		TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'error', text = 'You do not have enough money!' })
+		TriggerClientEvent('mythic_notify:client:SendAlert', _source, { type = 'error', text = 'You do not have enough money!' })
 	end
 end)
